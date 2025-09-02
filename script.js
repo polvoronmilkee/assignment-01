@@ -61,6 +61,7 @@ document.addEventListener("DOMContentLoaded", () => {
       return;
     }
 
+      // show loading ..
     userRows.innerHTML = `<tr><td colspan="4" class="text-muted">Loading users...</td></tr>`;
 
     fetchUsers(count)
@@ -74,6 +75,9 @@ document.addEventListener("DOMContentLoaded", () => {
       });
   }
 
+  // generate button
   generateBtn.addEventListener("click", generateUsers);
+
+  //refetch with current count
   nameFormatSelect.addEventListener("change", generateUsers);
 });
