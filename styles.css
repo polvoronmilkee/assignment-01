@@ -1,3 +1,57 @@
+body {
+  display: flex;             
+  flex-direction: column;    
+  justify-content: center;    
+  align-items: center;      
+  min-height: 100vh;          
+  text-align: center;      
+  background-color: rgba(252, 252, 252, 0.732) !important; 
+}
+
+.bg-purple {
+  background-color: rgb(179, 152, 187) !important;
+}
+
+.modal {
+  display: block;
+  background-color: rgba(87, 8, 83, 0.158);
+}
+
+
+.modal-body{
+  width: auto;
+  align-self: center;
+  justify-self: center;
+}
+.full-name-pill{
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  margin:auto;
+  margin-bottom: 20px;
+  border: rgb(155, 91, 140) solid;
+
+}
+
+.email-pill,
+.address-pill,
+.phone-pill,
+.dob-pill,
+.gender-pill
+{
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:auto;
+  margin-bottom: 12px;
+}
+
+.user-picture{
+  border: plum solid;
+}
 
 .pill-header th {
   background-color: #f6c4e0 !important;
@@ -17,6 +71,8 @@ table td, table th {
 
 }
 
+
+
 table {
   border-collapse: separate !important;
   border-spacing: 12px;
@@ -29,5 +85,13 @@ table {
 #generateBtn:hover {
   background-color: rgb(51, 51, 125);
   color: white;
+}
+
+.modal-title {
+  display: flex;
+  text-align: center; 
+  justify-self: center;
+  justify-items: center
+  
 }
 
